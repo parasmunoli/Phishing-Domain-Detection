@@ -4,5 +4,5 @@ joblib
 pandas
 gunicorn
 flask_cors
-scikit-learn
+scikit-learn == 1.3.0
 xgboost
