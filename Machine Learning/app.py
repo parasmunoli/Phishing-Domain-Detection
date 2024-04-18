@@ -230,7 +230,7 @@ def predict():
         # Use joblib to load your model
         model = load('hybrid_model.pkl')
         prediction = model.predict(df)
-        if prediction == [0]:
+        if prediction == [1]:
             res = 'Not a Phishing Domain'
         else:
             res = 'It is a Phishing Domain'
