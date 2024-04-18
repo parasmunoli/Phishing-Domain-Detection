@@ -1,10 +1,12 @@
 from flask import Flask, request, jsonify
 import pandas as pd
 from joblib import load
+from flask_cors import CORS
 import furl
 
 
 app = Flask(__name__)
+CORS(app)
 
 
 def extract_features(url):
