@@ -2,5 +2,5 @@ flask
 furl
 joblib
 pandas
-unicorn
+gunicorn
 flask_cors
