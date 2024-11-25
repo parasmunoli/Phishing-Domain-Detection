@@ -61,7 +61,13 @@ The project uses a dataset containing features like:
 - Suspicious keywords.  
 
 ## Model Development
-- Algorithm Used: Random Forest (or customizable options).
+- **Algorithm Used:** Random Forest (or customizable options).
 - Steps:
     - Preprocess data using Python scripts.
     - Train and save the model for deployment.
+
+## Web Interface
+The web interface includes:  
+
+- **Frontend:** Built with HTML and CSS (`index.html` and `styles.css`).
+- **Backend:** Flask-based backend for prediction integration.
